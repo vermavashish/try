@@ -3,7 +3,6 @@ module github.com/vermavashish/try
 go 1.16
 
 require (
-	github.com/aws/aws-sdk-go v1.38.67
 	github.com/go-openapi/errors v0.19.6
 	github.com/go-openapi/runtime v0.19.28
 	github.com/go-openapi/strfmt v0.19.5
@@ -13,5 +12,6 @@ require (
 	github.com/go-playground/validator v9.31.0+incompatible
 	github.com/gorilla/mux v1.8.0
 	github.com/leodido/go-urn v1.2.1 // indirect
+	golang.org/x/net v0.0.0-20201110031124-69a78807bb2b // indirect
 	gopkg.in/go-playground/assert.v1 v1.2.1 // indirect
 )

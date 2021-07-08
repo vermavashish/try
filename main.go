@@ -28,8 +28,8 @@ func main() {
 	getRouter := sm.Methods("GET").Subrouter()
 	getRouter.HandleFunc("/products", ph.GetProducts)
 	getRouter.HandleFunc("/{id:[0-9]+}", ph.ListSingle)
-	getRouter.HandleFunc("/aws", ph.Tryaws)
-	getRouter.HandleFunc("/authaws", ph.AuthAws)
+	// getRouter.HandleFunc("/aws", ph.Tryaws)
+	// getRouter.HandleFunc("/authaws", ph.AuthAws)
 
 	putRouter := sm.Methods("PUT").Subrouter()
 	putRouter.HandleFunc("/{id:[0-9]+}", ph.UpdateProducts)
